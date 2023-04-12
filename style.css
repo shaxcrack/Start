@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.gui{
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.ul{
+    list-style: none;
+    display: flex;
+}
+    
+.ul li{
+    margin: 0 15px;
+    color: #fff;
+}
+
+section{
+    background-color: blueviolet;
+    height: 80vh;
+}
+
+.header_text{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+
+}
+
+.eff{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 5px;
+    color: white;
+}
+
+.we{
+    font-size: 15px;
+    color: white;
+    line-height: 23px;
+}
+
+.plan{
+    color: mediumpurple;
+}
+
+.box{
+    background-color: white;
+   
+}
+
+.first{
+    padding: 10px 5px;
+    margin: 15px;
+
+}
+
+.fir2{
+    padding: 10px 5px;
+    margin: 15px;
+    
+}
+
+.fir3{
+    padding: 10px 110px;
+    margin: 1px 15px;
+
+
+}
+
+.btn{
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    background-color:blueviolet ;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    
+
+}
+
+.btn2{
+    padding: 10px 47px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    background-color:white ;
+    border: 1px solid blueviolet;
+    border-radius: 50px;
+    color: blueviolet;
+
+}
+
+.input{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.body{
+    padding-top: 100px;
+}
+
+.say{
+    text-align: center;
+    color: rgb(39, 54, 83);
+}
+
+.p{
+    text-align: center;
+}
+
+.box2{
+    background-color: white;
+    border-radius: 30px;
+    width: 230px;
+    margin: 100px;
+    cursor: pointer;
+    padding: 3px;
+    transition: all 0.1s linear;
+    
+}
+
+.body_text{
+    padding: 30px;
+    display: flex;
+
+}
+.but{
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    background-color:blueviolet ;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+.box2:hover{
+    border: 4px solid blue;
+    box-shadow: 6px 7px 9px blue;
+    }
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    transition: all 0.1s linear;
+}
+input:hover{
+    border-left: 2px solid blue;
+    box-shadow: inset 2px 4px 7px blue;
+
+}
+
+
+
+
+
